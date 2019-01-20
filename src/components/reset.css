@@ -1,0 +1,61 @@
+*{    
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;    
+  border-spacing:0;
+}
+.clear:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right
+}
+.point{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black
+}
+fieldset,img {    
+  border:0;
+}
+ol,ul {    
+  list-style:none;
+}
+sup {    
+  vertical-align:text-top;
+}
+sub {    
+  vertical-align:text-bottom;
+}
+header{
+  position: relative;
+  font-size: .35rem;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+footer{
+  background-color: #999;
+  height: 1rem;
+  line-height: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
+footer>div{
+  float: left;
+  font-size: .3rem;
+}
+
